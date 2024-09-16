@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.spell-content {
+  width: 100vw;
+  padding: 0 5vw;
+}
