@@ -1,11 +1,46 @@
 body {
   display: flex;
-  align-items: center;
+  height: 100vh;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: #24273a;
+  color: #cad3f5;
+  overflow-y: hidden;
+}
+
+h1 {
+  text-align: center;
 }
 
 .spell-content {
   width: 100vw;
   padding: 0 5vw;
+}
+
+.button {
+  background-color: #363a4f;
+  color: #cad3f5;
+  font-size: 16pt;
+  padding: 1vh 1vw;
+  border: none;
+  margin: 4vh 0.5vw;
+  align-self: flex-end;
+}
+
+.button:hover {
+  background-color: #5b6078;
+}
+
+.button:active {
+  background-color: #b7bdf8;
+  color: #1e2030;
+}
+
+::selection {
+  background: #5b6078;
+}
+
+::-moz-selection {
+  background: #5b6078;
 }
