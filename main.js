@@ -24,12 +24,12 @@ document.addEventListener("DOMContentLoaded", function () {
           response.data.higher_level != undefined &&
           response.data.higher_level.length > 0
         ) {
-          spellContent.innerHTML = `<h1>${response.data.name}</h1>
+          spellContent.innerHTML = `<h1 class="h1">${response.data.name}</h1>
           <p><strong>Level:</strong> ${response.data.level}</p>
           <p><strong>Description:</strong> ${response.data.desc}</p>
           <p><strong>At Higher Levels:</strong> ${response.data.higher_level}</p>`;
         } else {
-          spellContent.innerHTML = `<h1>${response.data.name}</h1>
+          spellContent.innerHTML = `<h1 class="h1">${response.data.name}</h1>
           <p><strong>Level:</strong> ${response.data.level}</p>
           <p><strong>Description:</strong> ${response.data.desc}</p>`;
         }

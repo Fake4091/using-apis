@@ -1,4 +1,4 @@
-body {
+.body {
   display: flex;
   height: 100vh;
   align-items: flex-start;
@@ -9,7 +9,7 @@ body {
   overflow-y: hidden;
 }
 
-h1 {
+.h1 {
   text-align: center;
 }
 
